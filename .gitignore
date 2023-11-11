@@ -1,1 +1,3 @@
-/bevy_egine/target/debug/
+/bevy_egine/target
+.idea
+/bevy_egine/.idea
