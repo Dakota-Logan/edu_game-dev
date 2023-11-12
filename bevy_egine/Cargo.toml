@@ -6,7 +6,15 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = { version = "0.12.0", features = ['dynamic_linking'] }
+vulkanalia = { version = "=0.22.0", features = ["libloading", "provisional", "window"] }
+anyhow = "1.0.75"
+log = "0.4.20"
+cgmath = "0.18.0"
+png = "0.17.10"
+pretty_env_logger = "0.5.0"
+thiserror = "1.0.50"
+tobj = { version = "4.0.0", features = ["log"] }
+winit = "0.29.3"
 
 [workspace]
 resolver = "2"
